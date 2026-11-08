@@ -1,0 +1,1197 @@
+Using device: cuda   seed: 42   arms: ['none', 'rl', 'clip', 'splitguard']
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch [1/20], Loss: 0.2718
+Test Mean: 0.13198242828440973, Test PSNR: 8.800467216051542,
+ Test SSIM: 0.18549279935466936, shadow model mse: 0.13198242828440973 
+Epoch [2/20], Loss: 0.1196
+Test Mean: 0.07672247911492984, Test PSNR: 11.156561460250463,
+ Test SSIM: 0.38025171710894656, shadow model mse: 0.07672247911492984 
+Epoch [3/20], Loss: 0.0713
+Test Mean: 0.05240160346222229, Test PSNR: 12.813333242367476,
+ Test SSIM: 0.49918512465097964, shadow model mse: 0.05240160346222229 
+Epoch [4/20], Loss: 0.0516
+Test Mean: 0.041192317906862654, Test PSNR: 13.859284168634659,
+ Test SSIM: 0.576628715564043, shadow model mse: 0.041192317906862654 
+Epoch [5/20], Loss: 0.0412
+Test Mean: 0.035010552105422206, Test PSNR: 14.56591842113397,
+ Test SSIM: 0.6214482394548563, shadow model mse: 0.035010552105422206 
+Epoch [6/20], Loss: 0.0346
+Test Mean: 0.030673326375201728, Test PSNR: 15.140630440834242,
+ Test SSIM: 0.6536498505335587, shadow model mse: 0.030673326375201728 
+Epoch [7/20], Loss: 0.0299
+Test Mean: 0.027377835248047724, Test PSNR: 15.634523355043852,
+ Test SSIM: 0.6786403174583728, shadow model mse: 0.027377835248047724 
+Epoch [8/20], Loss: 0.0265
+Test Mean: 0.024716301415211115, Test PSNR: 16.078891570751484,
+ Test SSIM: 0.6988446028568805, shadow model mse: 0.024716301415211115 
+Epoch [9/20], Loss: 0.0238
+Test Mean: 0.02248935990083294, Test PSNR: 16.489121210880768,
+ Test SSIM: 0.7158277370990851, shadow model mse: 0.02248935990083294 
+Epoch [10/20], Loss: 0.0217
+Test Mean: 0.02060557146055194, Test PSNR: 16.869202833909256,
+ Test SSIM: 0.7305029836984781, shadow model mse: 0.02060557146055194 
+Epoch [11/20], Loss: 0.0200
+Test Mean: 0.019025799973557394, Test PSNR: 17.21577639457507,
+ Test SSIM: 0.7433421799005606, shadow model mse: 0.019025799973557394 
+Epoch [12/20], Loss: 0.0185
+Test Mean: 0.017708945989561003, Test PSNR: 17.52742448219886,
+ Test SSIM: 0.7544426184434158, shadow model mse: 0.017708945989561003 
+Epoch [13/20], Loss: 0.0173
+Test Mean: 0.01660829063695975, Test PSNR: 17.806225299835205,
+ Test SSIM: 0.7640956731942984, shadow model mse: 0.01660829063695975 
+Epoch [14/20], Loss: 0.0163
+Test Mean: 0.015675678849220276, Test PSNR: 18.057327429453533,
+ Test SSIM: 0.7726867424371915, shadow model mse: 0.015675678849220276 
+Epoch [15/20], Loss: 0.0154
+Test Mean: 0.014875442846319996, Test PSNR: 18.284997744437977,
+ Test SSIM: 0.7803700868135843, shadow model mse: 0.014875442846319996 
+Epoch [16/20], Loss: 0.0146
+Test Mean: 0.014179902443757806, Test PSNR: 18.49305424323449,
+ Test SSIM: 0.787288153782869, shadow model mse: 0.014179902443757806 
+Epoch [17/20], Loss: 0.0139
+Test Mean: 0.013565685683622574, Test PSNR: 18.68545373280843,
+ Test SSIM: 0.793535168736409, shadow model mse: 0.013565685683622574 
+Epoch [18/20], Loss: 0.0133
+Test Mean: 0.013016754850888481, Test PSNR: 18.864928404490154,
+ Test SSIM: 0.7992628721090463, shadow model mse: 0.013016754850888481 
+Epoch [19/20], Loss: 0.0127
+Test Mean: 0.012517639597018178, Test PSNR: 19.0348154826042,
+ Test SSIM: 0.8045471127216632, shadow model mse: 0.012517639597018178 
+Epoch [20/20], Loss: 0.0122
+Test Mean: 0.012062284665612074, Test PSNR: 19.195829269213554,
+ Test SSIM: 0.8094992072154314, shadow model mse: 0.012062284665612074 
+
+===== attack=urvfl  passive defence=none =====
+Test Mean: 0.27237739003239536, Test PSNR: 5.663941915218647,
+ Test SSIM: -0.01878352434066936, shadow model mse: 0.012062284665612074 
+Epoch: 0 running loss: 2.441004514694214 discriminator loos : 5.495250540719906
+Test Mean: 0.08105590753257275, Test PSNR: 10.925503565714909,
+ Test SSIM: 0.39786471827672076, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 1.2757800504183159, Average cosine distance : 0.25862322938747895
+Epoch: 1 running loss: 2.2064428329467773 discriminator loos : 5.080926343085061
+Test Mean: 0.07361106359614776, Test PSNR: 11.34041507427509,
+ Test SSIM: 0.36617330767405337, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 1.1996537630374615, Average cosine distance : 0.21933707747703943
+Epoch: 2 running loss: 2.1403145790100098 discriminator loos : 4.922288803315499
+Test Mean: 0.06558699671847698, Test PSNR: 11.841910429489918,
+ Test SSIM: 0.39534384451615506, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 1.0554440032977324, Average cosine distance : 0.2065698241767211
+Epoch: 3 running loss: 2.103295087814331 discriminator loos : 4.83260731092641
+Test Mean: 0.05886899326474239, Test PSNR: 12.313959836959839,
+ Test SSIM: 0.4193766332971744, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.8840028020815972, Average cosine distance : 0.17945841623422426
+Epoch: 4 running loss: 2.0779848098754883 discriminator loos : 4.759773030079586
+Test Mean: 0.04285326112921421, Test PSNR: 13.69052799542745,
+ Test SSIM: 0.5192016821641189, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.7475676288207372, Average cosine distance : 0.15766422698895136
+Epoch: 5 running loss: 2.047410011291504 discriminator loos : 4.710544387387558
+Test Mean: 0.03796170084761121, Test PSNR: 14.216451987242086,
+ Test SSIM: 0.5405666898840513, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.6699957331785789, Average cosine distance : 0.14737361067762741
+Epoch: 6 running loss: 2.0191469192504883 discriminator loos : 4.671093031386254
+Test Mean: 0.03719057389893211, Test PSNR: 14.307054709165524,
+ Test SSIM: 0.5630679707496594, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.634631797671318, Average cosine distance : 0.1392870588848988
+Epoch: 7 running loss: 1.9969114065170288 discriminator loos : 4.609300226560781
+Test Mean: 0.03698900382583722, Test PSNR: 14.330818188496124,
+ Test SSIM: 0.5658075435039325, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5967514981061984, Average cosine distance : 0.13112168391354573
+Epoch: 8 running loss: 1.977656364440918 discriminator loos : 4.54873969924282
+Test Mean: 0.03640559491199943, Test PSNR: 14.398777142549173,
+ Test SSIM: 0.5655237971208035, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5838331740636092, Average cosine distance : 0.12825180313143975
+Epoch: 9 running loss: 1.9583756923675537 discriminator loos : 4.494938658324766
+Test Mean: 0.035713936787289687, Test PSNR: 14.482384528869238,
+ Test SSIM: 0.5701013792019624, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5644865439106257, Average cosine distance : 0.12524557715425125
+Epoch: 10 running loss: 1.9438667297363281 discriminator loos : 4.441091652991067
+Test Mean: 0.035126964919842206, Test PSNR: 14.554589399924645,
+ Test SSIM: 0.569963005108711, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5569681061001924, Average cosine distance : 0.1241172293248849
+Epoch: 11 running loss: 1.9310414791107178 discriminator loos : 4.388504869165555
+Test Mean: 0.03403852729556652, Test PSNR: 14.6913198752281,
+ Test SSIM: 0.5760677326948215, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5440879550117713, Average cosine distance : 0.12181733419688848
+Epoch: 12 running loss: 1.9181101322174072 discriminator loos : 4.344390891303479
+Test Mean: 0.034083686327227414, Test PSNR: 14.685742745032677,
+ Test SSIM: 0.5754702752217268, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5399342817373765, Average cosine distance : 0.12140909544168374
+Epoch: 13 running loss: 1.9071462154388428 discriminator loos : 4.3025408885848355
+Test Mean: 0.033850880614362464, Test PSNR: 14.715246072182289,
+ Test SSIM: 0.5788499208597037, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5439115008100485, Average cosine distance : 0.12141890183855326
+Epoch: 14 running loss: 1.8974690437316895 discriminator loos : 4.267555778798923
+Test Mean: 0.03406446474866989, Test PSNR: 14.687242691333477,
+ Test SSIM: 0.5786638129980136, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5474970422876186, Average cosine distance : 0.12146126445478354
+Epoch: 15 running loss: 1.8881012201309204 discriminator loos : 4.235413932128691
+Test Mean: 0.033803761924784154, Test PSNR: 14.720202299264761,
+ Test SSIM: 0.5795354315867791, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5461536596218745, Average cosine distance : 0.12106028309044166
+Epoch: 16 running loss: 1.8771169185638428 discriminator loos : 4.201042449978036
+Test Mean: 0.03303622816187831, Test PSNR: 14.819715414291773,
+ Test SSIM: 0.5823775766751705, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.541052299623306, Average cosine distance : 0.12080616097992812
+Epoch: 17 running loss: 1.8690853118896484 discriminator loos : 4.167478995927623
+Test Mean: 0.03246059031106341, Test PSNR: 14.895575853494497,
+ Test SSIM: 0.5852745335835677, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5409079385109437, Average cosine distance : 0.12093316558270882
+Epoch: 18 running loss: 1.862589955329895 discriminator loos : 4.135566491140446
+Test Mean: 0.03229035864560268, Test PSNR: 14.918279378842085,
+ Test SSIM: 0.5842760675228559, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5391693375049493, Average cosine distance : 0.12064635018125558
+Epoch: 19 running loss: 1.8564900159835815 discriminator loos : 4.103364853120186
+Test Mean: 0.03201659764043796, Test PSNR: 14.955312099212255,
+ Test SSIM: 0.5850402815983846, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5346476865502504, Average cosine distance : 0.12035978833834331
+Epoch: 20 running loss: 1.8513227701187134 discriminator loos : 4.071682023330474
+Test Mean: 0.031884025901747055, Test PSNR: 14.973213324180016,
+ Test SSIM: 0.5850672079966619, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5331604646948668, Average cosine distance : 0.12007645737284268
+Epoch: 21 running loss: 1.8461601734161377 discriminator loos : 4.041845166515297
+Test Mean: 0.0315426624714373, Test PSNR: 15.020028047072582,
+ Test SSIM: 0.5869161983331045, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5289702952290193, Average cosine distance : 0.11938055786184776
+Epoch: 22 running loss: 1.8422147035598755 discriminator loos : 4.011402188556295
+Test Mean: 0.03132932623609518, Test PSNR: 15.049614429473877,
+ Test SSIM: 0.5876214935993537, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5285440578292577, Average cosine distance : 0.11959726372972512
+Epoch: 23 running loss: 1.83706533908844 discriminator loos : 3.980337969685944
+Test Mean: 0.03105905244891078, Test PSNR: 15.087296449221098,
+ Test SSIM: 0.5895408124495776, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5252052467220869, Average cosine distance : 0.11919547388186821
+Epoch: 24 running loss: 1.8335893154144287 discriminator loos : 3.9544079666406335
+Test Mean: 0.031001983735805903, Test PSNR: 15.095035112821138,
+ Test SSIM: 0.5902810199902608, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5245131785288836, Average cosine distance : 0.11891822292445561
+
+===== attack=urvfl  passive defence=rl =====
+Test Mean: 0.27237739003239536, Test PSNR: 5.663941915218647,
+ Test SSIM: -0.01878352434066936, shadow model mse: 0.012062284665612074 
+Epoch: 0 running loss: 2.7443153858184814 discriminator loos : 5.114574733250578
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 1 running loss: 2.6609346866607666 discriminator loos : 4.536027369700687
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 2 running loss: 2.590449094772339 discriminator loos : 4.364926056123116
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 3 running loss: 2.5467677116394043 discriminator loos : 4.2608824447846745
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 4 running loss: 2.512556314468384 discriminator loos : 4.183441290385287
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 5 running loss: 2.4828860759735107 discriminator loos : 4.1133829116821286
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 6 running loss: 2.4576709270477295 discriminator loos : 4.04844657803925
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 7 running loss: 2.4367012977600098 discriminator loos : 3.9948780086678517
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 8 running loss: 2.4172449111938477 discriminator loos : 3.942682522115573
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 9 running loss: 2.3993923664093018 discriminator loos : 3.8917092430759483
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 10 running loss: 2.3850114345550537 discriminator loos : 3.845225078287259
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 11 running loss: 2.372012138366699 discriminator loos : 3.8055894583043917
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 12 running loss: 2.3585684299468994 discriminator loos : 3.763931365080283
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 13 running loss: 2.347848415374756 discriminator loos : 3.725639674361323
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 14 running loss: 2.337397336959839 discriminator loos : 3.691432487460929
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 15 running loss: 2.3280446529388428 discriminator loos : 3.657740931443765
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 16 running loss: 2.3183836936950684 discriminator loos : 3.6242217587753083
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 17 running loss: 2.3107635974884033 discriminator loos : 3.5905905112414294
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 18 running loss: 2.3041481971740723 discriminator loos : 3.563410431230572
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 19 running loss: 2.296499490737915 discriminator loos : 3.5325062389105137
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 20 running loss: 2.290435552597046 discriminator loos : 3.5036731585650376
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 21 running loss: 2.2840847969055176 discriminator loos : 3.4764801784300468
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 22 running loss: 2.2783467769622803 discriminator loos : 3.44929176988736
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 23 running loss: 2.271958112716675 discriminator loos : 3.4226886534355057
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+Epoch: 24 running loss: 2.266617774963379 discriminator loos : 3.392982372767489
+Test Mean: 0.3902133372731698, Test PSNR: 4.106834825796959,
+ Test SSIM: -0.01883423332280169, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 2.764827003845802, Average cosine distance : 0.5408584475517273
+
+===== attack=urvfl  passive defence=clip =====
+Test Mean: 0.27237739003239536, Test PSNR: 5.663941915218647,
+ Test SSIM: -0.01878352434066936, shadow model mse: 0.012062284665612074 
+Epoch: 0 running loss: 2.5166940689086914 discriminator loos : 5.386215569939412
+Test Mean: 0.08178411070735027, Test PSNR: 10.885026063674536,
+ Test SSIM: 0.41199989922535724, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 1.278141242571366, Average cosine distance : 0.2476781559869265
+Epoch: 1 running loss: 2.304217576980591 discriminator loos : 5.024823022224534
+Test Mean: 0.05878137978605735, Test PSNR: 12.318023088650826,
+ Test SSIM: 0.4445399068869077, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 1.0626286077193725, Average cosine distance : 0.21088388218329504
+Epoch: 2 running loss: 2.2231006622314453 discriminator loos : 4.944242187285088
+Test Mean: 0.05381071990212569, Test PSNR: 12.701188784379225,
+ Test SSIM: 0.48688334150192064, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.8894176811744006, Average cosine distance : 0.17035047050852042
+Epoch: 3 running loss: 2.1851296424865723 discriminator loos : 4.8485507763607405
+Test Mean: 0.04970232414033932, Test PSNR: 13.047657043505938,
+ Test SSIM: 0.4670173189578912, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.7649572228009884, Average cosine distance : 0.15938223716922295
+Epoch: 4 running loss: 2.1555325984954834 discriminator loos : 4.788641730832382
+Test Mean: 0.03877345092881184, Test PSNR: 14.124521053754366,
+ Test SSIM: 0.5541803275163357, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.6602337413873428, Average cosine distance : 0.141804015598236
+Epoch: 5 running loss: 2.1238186359405518 discriminator loos : 4.755052720996695
+Test Mean: 0.03292977130518128, Test PSNR: 14.833652826455923,
+ Test SSIM: 0.5872160501969166, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5933565501219187, Average cosine distance : 0.128529843993676
+Epoch: 6 running loss: 2.0946648120880127 discriminator loos : 4.705668015547202
+Test Mean: 0.0329319939065056, Test PSNR: 14.832889183973654,
+ Test SSIM: 0.5912153931000294, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5765753373121604, Average cosine distance : 0.1277479096674002
+Epoch: 7 running loss: 2.072549343109131 discriminator loos : 4.650857457980304
+Test Mean: 0.032485284532109894, Test PSNR: 14.8924223337418,
+ Test SSIM: 0.6027257213225732, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5453420709341, Average cosine distance : 0.1187584114093811
+Epoch: 8 running loss: 2.0509228706359863 discriminator loos : 4.602907067957059
+Test Mean: 0.03144882010439268, Test PSNR: 15.032303308829283,
+ Test SSIM: 0.6111425627500583, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5395590166250864, Average cosine distance : 0.1169819191384774
+Epoch: 9 running loss: 2.032045602798462 discriminator loos : 4.549306021945577
+Test Mean: 0.03077218574113571, Test PSNR: 15.126550001975817,
+ Test SSIM: 0.6151991937405024, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.5151381030296668, Average cosine distance : 0.11121905298951344
+Epoch: 10 running loss: 2.020555257797241 discriminator loos : 4.501835512779128
+Test Mean: 0.028236203731443636, Test PSNR: 15.500064868193407,
+ Test SSIM: 0.6291786508682446, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.49728916585445404, Average cosine distance : 0.1087851221076189
+Epoch: 11 running loss: 2.00909423828125 discriminator loos : 4.45804670629367
+Test Mean: 0.028333981700528126, Test PSNR: 15.485042865459736,
+ Test SSIM: 0.630849994527988, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.49516332627106935, Average cosine distance : 0.10663204807310532
+Epoch: 12 running loss: 1.9967321157455444 discriminator loos : 4.4151400028819765
+Test Mean: 0.02742126517188855, Test PSNR: 15.627147998565283,
+ Test SSIM: 0.6339367899375085, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.48268013447523117, Average cosine distance : 0.10473806606844449
+Epoch: 13 running loss: 1.9855549335479736 discriminator loos : 4.3825609146709175
+Test Mean: 0.02754860868056615, Test PSNR: 15.60694715915582,
+ Test SSIM: 0.6348281590602337, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.4699946817679283, Average cosine distance : 0.10161229318533188
+Epoch: 14 running loss: 1.972992181777954 discriminator loos : 4.3566692553775415
+Test Mean: 0.026604460480694588, Test PSNR: 15.75897488838587,
+ Test SSIM: 0.6381837152517759, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.4628794460724562, Average cosine distance : 0.10100413992618903
+Epoch: 15 running loss: 1.9615617990493774 discriminator loos : 4.326138260666753
+Test Mean: 0.025751501966554385, Test PSNR: 15.899755160013834,
+ Test SSIM: 0.6427595309722118, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.4566183363397916, Average cosine distance : 0.10012048482894897
+Epoch: 16 running loss: 1.9506524801254272 discriminator loos : 4.291141318603301
+Test Mean: 0.025192863928774994, Test PSNR: 15.995500613481571,
+ Test SSIM: 0.648289857002405, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.4490715467777008, Average cosine distance : 0.09884918762896305
+Epoch: 17 running loss: 1.9422062635421753 discriminator loos : 4.257191784281126
+Test Mean: 0.024885169493082244, Test PSNR: 16.049323540467483,
+ Test SSIM: 0.6516520690459472, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.4425566782936072, Average cosine distance : 0.09759998130492675
+Epoch: 18 running loss: 1.9367948770523071 discriminator loos : 4.227310619219928
+Test Mean: 0.02472603755692641, Test PSNR: 16.07774551709493,
+ Test SSIM: 0.6556104452182085, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.43882112701733905, Average cosine distance : 0.09638199558815895
+Epoch: 19 running loss: 1.9296199083328247 discriminator loos : 4.1943632441507255
+Test Mean: 0.02454811268939804, Test PSNR: 16.10942852191436,
+ Test SSIM: 0.6563789172050281, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.43482879472848696, Average cosine distance : 0.09593519568443298
+Epoch: 20 running loss: 1.9251906871795654 discriminator loos : 4.16578122528506
+Test Mean: 0.024610341717608463, Test PSNR: 16.098333108119476,
+ Test SSIM: 0.6559102225762147, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.43479098819005185, Average cosine distance : 0.09594059420319703
+Epoch: 21 running loss: 1.9195388555526733 discriminator loos : 4.13476961431369
+Test Mean: 0.02444750788167883, Test PSNR: 16.126669443570652,
+ Test SSIM: 0.6571019555513675, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.4342869999699103, Average cosine distance : 0.09611221383779477
+Epoch: 22 running loss: 1.9144753217697144 discriminator loos : 4.108974161282392
+Test Mean: 0.02408937485410999, Test PSNR: 16.190070604666687,
+ Test SSIM: 0.6596017548671136, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.43091399260820484, Average cosine distance : 0.09579331513780814
+Epoch: 23 running loss: 1.90839684009552 discriminator loos : 4.080231641715681
+Test Mean: 0.02399970595844281, Test PSNR: 16.20585803496532,
+ Test SSIM: 0.6588115841150284, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.4313775165340839, Average cosine distance : 0.09615425139856644
+Epoch: 24 running loss: 1.9024326801300049 discriminator loos : 4.053526249066205
+Test Mean: 0.023996394748489063, Test PSNR: 16.206267197926838,
+ Test SSIM: 0.6575917467857019, shadow model mse: 0.012062284665612074 
+Average mse distance of embedding : 0.42957367671605867, Average cosine distance : 0.09577665922160332
+
+===== attack=urvfl  passive defence=splitguard =====
+Test Mean: 0.2823001515024748, Test PSNR: 5.508771080237168,
+ Test SSIM: -0.03524348895566968, shadow model mse: 0.012062617870143209 
+Epoch: 0 Decoder Loss: 0.0, D loss: 0.2871071761762592, model loss: 0.14090606729749222
+[saved] C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\cifar10\rl_defense_result\seed42\results.json
+
+===== honest VFL  passive defence=none =====
+Accuracy: 0.4518229365348816
+[honest/none] epoch 1: train loss 1.7885  test acc 45.18%
+Accuracy: 0.5031049847602844
+[honest/none] epoch 2: train loss 1.4439  test acc 50.31%
+Accuracy: 0.5155248641967773
+[honest/none] epoch 3: train loss 1.2903  test acc 51.55%
+Accuracy: 0.5276442170143127
+[honest/none] epoch 4: train loss 1.1719  test acc 52.76%
+Accuracy: 0.5422676205635071
+[honest/none] epoch 5: train loss 1.0612  test acc 54.23%
+Accuracy: 0.5407652258872986
+[honest/none] epoch 6: train loss 0.9510  test acc 54.08%
+Accuracy: 0.532151460647583
+[honest/none] epoch 7: train loss 0.8418  test acc 53.22%
+Accuracy: 0.5272436141967773
+[honest/none] epoch 8: train loss 0.7413  test acc 52.72%
+Accuracy: 0.4850761294364929
+[honest/none] epoch 9: train loss 0.6510  test acc 48.51%
+Accuracy: 0.5210336446762085
+[honest/none] epoch 10: train loss 0.5786  test acc 52.10%
+
+===== honest VFL  passive defence=rl =====
+Accuracy: 0.45472756028175354
+[honest/rl] epoch 1: train loss 1.7894  test acc 45.47%
+Accuracy: 0.5111178159713745
+[honest/rl] epoch 2: train loss 1.4421  test acc 51.11%
+Accuracy: 0.5248397588729858
+[honest/rl] epoch 3: train loss 1.2873  test acc 52.48%
+Accuracy: 0.5398637652397156
+[honest/rl] epoch 4: train loss 1.1662  test acc 53.99%
+Accuracy: 0.5446714758872986
+[honest/rl] epoch 5: train loss 1.0554  test acc 54.47%
+Accuracy: 0.5237379670143127
+[honest/rl] epoch 6: train loss 0.9452  test acc 52.37%
+Accuracy: 0.5305488705635071
+[honest/rl] epoch 7: train loss 0.8314  test acc 53.05%
+Accuracy: 0.5121194124221802
+[honest/rl] epoch 8: train loss 0.7251  test acc 51.21%
+Accuracy: 0.5054086446762085
+[honest/rl] epoch 9: train loss 0.6429  test acc 50.54%
+Accuracy: 0.4869791865348816
+[honest/rl] epoch 10: train loss 0.5752  test acc 48.70%
+
+===== honest VFL  passive defence=clip =====
+Accuracy: 0.43719953298568726
+[honest/clip] epoch 1: train loss 1.7990  test acc 43.72%
+Accuracy: 0.4860777258872986
+[honest/clip] epoch 2: train loss 1.4657  test acc 48.61%
+Accuracy: 0.5180288553237915
+[honest/clip] epoch 3: train loss 1.3168  test acc 51.80%
+Accuracy: 0.5309495329856873
+[honest/clip] epoch 4: train loss 1.2045  test acc 53.09%
+Accuracy: 0.5272436141967773
+[honest/clip] epoch 5: train loss 1.1031  test acc 52.72%
+Accuracy: 0.5314503312110901
+[honest/clip] epoch 6: train loss 1.0019  test acc 53.15%
+Accuracy: 0.5365585088729858
+[honest/clip] epoch 7: train loss 0.8992  test acc 53.66%
+Accuracy: 0.5122195482254028
+[honest/clip] epoch 8: train loss 0.7909  test acc 51.22%
+Accuracy: 0.5166265964508057
+[honest/clip] epoch 9: train loss 0.6878  test acc 51.66%
+Accuracy: 0.5010015964508057
+[honest/clip] epoch 10: train loss 0.6016  test acc 50.10%
+[saved] C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\cifar10\rl_defense_result\seed42\results.json
+STAGE1 DONE
+Using device: cuda   seed: 42   arms: ['none', 'rl', 'clip']
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch [1/20], Loss: 0.3780
+Test Mean: 0.2511196150802649, Test PSNR: 6.010006699806604,
+ Test SSIM: -0.00038356297777798504, shadow model mse: 0.2511196150802649 
+Epoch [2/20], Loss: 0.2998
+Test Mean: 0.2285140405098597, Test PSNR: 6.418521917783297,
+ Test SSIM: -0.0027483518892833484, shadow model mse: 0.2285140405098597 
+Epoch [3/20], Loss: 0.2407
+Test Mean: 0.18604996093572715, Test PSNR: 7.309866168560126,
+ Test SSIM: 0.04975703633270967, shadow model mse: 0.18604996093572715 
+Epoch [4/20], Loss: 0.1955
+Test Mean: 0.14293985871168283, Test PSNR: 8.45424494987879,
+ Test SSIM: 0.15251723294838881, shadow model mse: 0.14293985871168283 
+Epoch [5/20], Loss: 0.1607
+Test Mean: 0.11208949257165958, Test PSNR: 9.509928801120855,
+ Test SSIM: 0.2518557331118828, shadow model mse: 0.11208949257165958 
+Epoch [6/20], Loss: 0.1345
+Test Mean: 0.09449541807556763, Test PSNR: 10.251754149412497,
+ Test SSIM: 0.31698189159998524, shadow model mse: 0.09449541807556763 
+Epoch [7/20], Loss: 0.1151
+Test Mean: 0.08569922116704476, Test PSNR: 10.676228364308676,
+ Test SSIM: 0.3493894596512501, shadow model mse: 0.08569922116704476 
+Epoch [8/20], Loss: 0.1001
+Test Mean: 0.07980391149146435, Test PSNR: 10.985698186434233,
+ Test SSIM: 0.3702624938808955, shadow model mse: 0.07980391149146435 
+Epoch [9/20], Loss: 0.0884
+Test Mean: 0.07372628448483272, Test PSNR: 11.329752555260292,
+ Test SSIM: 0.3935419376461934, shadow model mse: 0.07372628448483272 
+Epoch [10/20], Loss: 0.0791
+Test Mean: 0.06718247593977512, Test PSNR: 11.733612140019735,
+ Test SSIM: 0.4214083216129205, shadow model mse: 0.06718247593977512 
+Epoch [11/20], Loss: 0.0717
+Test Mean: 0.061105000046201244, Test PSNR: 12.14565829741649,
+ Test SSIM: 0.450404323828526, shadow model mse: 0.061105000046201244 
+Epoch [12/20], Loss: 0.0656
+Test Mean: 0.056033351291448645, Test PSNR: 12.522179016700157,
+ Test SSIM: 0.47782882226583284, shadow model mse: 0.056033351291448645 
+Epoch [13/20], Loss: 0.0605
+Test Mean: 0.05197003314223809, Test PSNR: 12.84930360622895,
+ Test SSIM: 0.5025425750093583, shadow model mse: 0.05197003314223809 
+Epoch [14/20], Loss: 0.0563
+Test Mean: 0.04867538370383091, Test PSNR: 13.133919605842003,
+ Test SSIM: 0.5242607341362879, shadow model mse: 0.04867538370383091 
+Epoch [15/20], Loss: 0.0527
+Test Mean: 0.0459410487793577, Test PSNR: 13.385183016459147,
+ Test SSIM: 0.5430811670346137, shadow model mse: 0.0459410487793577 
+Epoch [16/20], Loss: 0.0497
+Test Mean: 0.04362435266375542, Test PSNR: 13.610064916121654,
+ Test SSIM: 0.559358040873821, shadow model mse: 0.04362435266375542 
+Epoch [17/20], Loss: 0.0470
+Test Mean: 0.041632031257718034, Test PSNR: 13.8132241383577,
+ Test SSIM: 0.5734677203954794, shadow model mse: 0.041632031257718034 
+Epoch [18/20], Loss: 0.0446
+Test Mean: 0.039900609626410864, Test PSNR: 13.997839389703213,
+ Test SSIM: 0.5858654078000631, shadow model mse: 0.039900609626410864 
+Epoch [19/20], Loss: 0.0425
+Test Mean: 0.038360137516298354, Test PSNR: 14.168951927087246,
+ Test SSIM: 0.5969373442423649, shadow model mse: 0.038360137516298354 
+Epoch [20/20], Loss: 0.0405
+Test Mean: 0.03696624960941382, Test PSNR: 14.329803454570282,
+ Test SSIM: 0.6069990560794488, shadow model mse: 0.03696624960941382 
+
+===== attack=urvfl_small  passive defence=none =====
+Test Mean: 0.2509810991394214, Test PSNR: 6.018337585987189,
+ Test SSIM: -0.012241559421034673, shadow model mse: 0.03696624960941382 
+Epoch: 0 running loss: 2.4543404579162598 discriminator loos : 5.486154627464187
+Test Mean: 0.08574465829401444, Test PSNR: 10.67732493694012,
+ Test SSIM: 0.32220335896962726, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 1.4218466037358992, Average cosine distance : 0.2543765179430827
+Epoch: 1 running loss: 2.228113889694214 discriminator loos : 4.9261553643454965
+Test Mean: 0.07423678608850026, Test PSNR: 11.301134140063555,
+ Test SSIM: 0.3698362824626458, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 1.182835320631663, Average cosine distance : 0.23267457003776842
+Epoch: 2 running loss: 2.1685259342193604 discriminator loos : 4.683431031670369
+Test Mean: 0.07761506034204593, Test PSNR: 11.108429688673754,
+ Test SSIM: 0.37271135529646504, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 1.053530847797027, Average cosine distance : 0.2124621596855995
+Epoch: 3 running loss: 2.133532762527466 discriminator loos : 4.478750637215628
+Test Mean: 0.08056606037112382, Test PSNR: 10.94574088928027,
+ Test SSIM: 0.34248084250168925, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.9925085298525982, Average cosine distance : 0.2130197674418107
+Epoch: 4 running loss: 2.115959644317627 discriminator loos : 4.322254301796497
+Test Mean: 0.07366244184474151, Test PSNR: 11.336044910626534,
+ Test SSIM: 0.3705461569703542, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.9097097966915522, Average cosine distance : 0.19618022021574852
+Epoch: 5 running loss: 2.103242874145508 discriminator loos : 4.1748349290498545
+Test Mean: 0.07403948606970982, Test PSNR: 11.31474749247233,
+ Test SSIM: 0.3653324670516528, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.8866812785466512, Average cosine distance : 0.1952351308785952
+Epoch: 6 running loss: 2.093156576156616 discriminator loos : 4.040997791290283
+Test Mean: 0.07303639178952345, Test PSNR: 11.374283533829908,
+ Test SSIM: 0.37282117303365314, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.8573795694571275, Average cosine distance : 0.19146786878506342
+Epoch: 7 running loss: 2.0859599113464355 discriminator loos : 3.9135855950100322
+Test Mean: 0.07358308332279706, Test PSNR: 11.341978091460009,
+ Test SSIM: 0.36759726321085906, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.8237870744405649, Average cosine distance : 0.1884691692315615
+Epoch: 8 running loss: 2.0832812786102295 discriminator loos : 3.7847844352184885
+Test Mean: 0.0736064441406574, Test PSNR: 11.340777060924433,
+ Test SSIM: 0.360656853669729, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.8105554687671173, Average cosine distance : 0.18907140778043333
+Epoch: 9 running loss: 2.081995725631714 discriminator loos : 3.6592935494973626
+Test Mean: 0.07269160829197902, Test PSNR: 11.394809765693468,
+ Test SSIM: 0.36337246764928866, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.7879635657255466, Average cosine distance : 0.18666944375787026
+
+===== attack=urvfl_small  passive defence=rl =====
+Test Mean: 0.2509810991394214, Test PSNR: 6.018337585987189,
+ Test SSIM: -0.012241559421034673, shadow model mse: 0.03696624960941382 
+Epoch: 0 running loss: 2.742655038833618 discriminator loos : 5.045742996645646
+Test Mean: 0.3217581879252043, Test PSNR: 4.941024291209685,
+ Test SSIM: -0.03874714747787668, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 2.6597552375915723, Average cosine distance : 0.5337167275257599
+Epoch: 1 running loss: 2.6705868244171143 discriminator loos : 4.307814796877579
+Test Mean: 0.3217581879252043, Test PSNR: 4.941024291209685,
+ Test SSIM: -0.03874714747787668, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 2.6597552375915723, Average cosine distance : 0.5337167275257599
+Epoch: 2 running loss: 2.6034038066864014 discriminator loos : 4.021800552959173
+Test Mean: 0.3217581879252043, Test PSNR: 4.941024291209685,
+ Test SSIM: -0.03874714747787668, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 2.6597552375915723, Average cosine distance : 0.5337167275257599
+Epoch: 3 running loss: 2.5585641860961914 discriminator loos : 3.8057977179406395
+Test Mean: 0.3217581879252043, Test PSNR: 4.941024291209685,
+ Test SSIM: -0.03874714747787668, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 2.6597552375915723, Average cosine distance : 0.5337167275257599
+Epoch: 4 running loss: 2.5254242420196533 discriminator loos : 3.6130115179948405
+Test Mean: 0.3217581879252043, Test PSNR: 4.941024291209685,
+ Test SSIM: -0.03874714747787668, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 2.6597552375915723, Average cosine distance : 0.5337167275257599
+Epoch: 5 running loss: 2.4997029304504395 discriminator loos : 3.439205873516244
+Test Mean: 0.3217581879252043, Test PSNR: 4.941024291209685,
+ Test SSIM: -0.03874714747787668, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 2.6597552375915723, Average cosine distance : 0.5337167275257599
+Epoch: 6 running loss: 2.4786674976348877 discriminator loos : 3.282117817435466
+Test Mean: 0.3217581879252043, Test PSNR: 4.941024291209685,
+ Test SSIM: -0.03874714747787668, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 2.6597552375915723, Average cosine distance : 0.5337167275257599
+Epoch: 7 running loss: 2.4613592624664307 discriminator loos : 3.1438245659143154
+Test Mean: 0.3217581879252043, Test PSNR: 4.941024291209685,
+ Test SSIM: -0.03874714747787668, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 2.6597552375915723, Average cosine distance : 0.5337167275257599
+Epoch: 8 running loss: 2.4468352794647217 discriminator loos : 3.02063266592966
+Test Mean: 0.3217581879252043, Test PSNR: 4.941024291209685,
+ Test SSIM: -0.03874714747787668, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 2.6597552375915723, Average cosine distance : 0.5337167275257599
+Epoch: 9 running loss: 2.4342095851898193 discriminator loos : 2.912801931945371
+Test Mean: 0.3217581879252043, Test PSNR: 4.941024291209685,
+ Test SSIM: -0.03874714747787668, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 2.6597552375915723, Average cosine distance : 0.5337167275257599
+
+===== attack=urvfl_small  passive defence=clip =====
+Test Mean: 0.2509810991394214, Test PSNR: 6.018337585987189,
+ Test SSIM: -0.012241559421034673, shadow model mse: 0.03696624960941382 
+Epoch: 0 running loss: 2.5271105766296387 discriminator loos : 5.386181881058384
+Test Mean: 0.0967512784095911, Test PSNR: 10.153404015761156,
+ Test SSIM: 0.31919872703460545, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 1.3636332161915607, Average cosine distance : 0.2595758044566864
+Epoch: 1 running loss: 2.310386896133423 discriminator loos : 4.930692574675654
+Test Mean: 0.06884544304548165, Test PSNR: 11.63032512787061,
+ Test SSIM: 0.4064042382897475, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 1.0390515014147148, Average cosine distance : 0.20771929430655944
+Epoch: 2 running loss: 2.2529234886169434 discriminator loos : 4.7209433931699945
+Test Mean: 0.0639085466376482, Test PSNR: 11.952299906657291,
+ Test SSIM: 0.4412331495147485, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.8767036570188327, Average cosine distance : 0.1793014566676739
+Epoch: 3 running loss: 2.2175815105438232 discriminator loos : 4.565030413614193
+Test Mean: 0.06409232270641205, Test PSNR: 11.939636444434141,
+ Test SSIM: 0.43154052702280193, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.8464334175372735, Average cosine distance : 0.17191207982026613
+Epoch: 4 running loss: 2.1902310848236084 discriminator loos : 4.418013627764205
+Test Mean: 0.061289048299957544, Test PSNR: 12.134456279950264,
+ Test SSIM: 0.4547438804919903, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.8119190480464544, Average cosine distance : 0.1688652117856038
+Epoch: 5 running loss: 2.1732776165008545 discriminator loos : 4.268531575001461
+Test Mean: 0.06203621145910942, Test PSNR: 12.08257480768057,
+ Test SSIM: 0.4599367937980554, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.7734101705062084, Average cosine distance : 0.16241226679621598
+Epoch: 6 running loss: 2.159688711166382 discriminator loos : 4.160468711315746
+Test Mean: 0.061465463505532496, Test PSNR: 12.121682539964334,
+ Test SSIM: 0.4555959103581233, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.7176711284197294, Average cosine distance : 0.15433092405780768
+Epoch: 7 running loss: 2.1574132442474365 discriminator loos : 4.030412371057859
+Test Mean: 0.06008471137820146, Test PSNR: 12.219968606264164,
+ Test SSIM: 0.4586853686815653, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.6896016181279452, Average cosine distance : 0.15134636379587343
+Epoch: 8 running loss: 2.1515629291534424 discriminator loos : 3.9201786618837167
+Test Mean: 0.057883122410529696, Test PSNR: 12.382616801139635,
+ Test SSIM: 0.46132120948571426, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.6459289082349875, Average cosine distance : 0.14656443368548003
+Epoch: 9 running loss: 2.144444227218628 discriminator loos : 3.824602506530117
+Test Mean: 0.056917075402079485, Test PSNR: 12.455571682025225,
+ Test SSIM: 0.4636742203281476, shadow model mse: 0.03696624960941382 
+Average mse distance of embedding : 0.6235162864128748, Average cosine distance : 0.144575401280935
+[saved] C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\cifar10\rl_defense_result\seed42\results.json
+[aux] held-out aux covers classes [0, 1, 5, 7, 8], 2279 samples
+Epoch [1/20], Loss: 0.3421
+Test Mean: 0.22612557092156166, Test PSNR: 6.463774302066901,
+ Test SSIM: -0.002128046125737735, shadow model mse: 0.22612557092156166 
+Epoch [2/20], Loss: 0.2126
+Test Mean: 0.13144296546203968, Test PSNR: 8.818209311900995,
+ Test SSIM: 0.1790933115169024, shadow model mse: 0.13144296546203968 
+Epoch [3/20], Loss: 0.1422
+Test Mean: 0.08717100561047211, Test PSNR: 10.602454038766714,
+ Test SSIM: 0.33677612990140915, shadow model mse: 0.08717100561047211 
+Epoch [4/20], Loss: 0.1047
+Test Mean: 0.0741438355583411, Test PSNR: 11.305443690373348,
+ Test SSIM: 0.3881521089336811, shadow model mse: 0.0741438355583411 
+Epoch [5/20], Loss: 0.0827
+Test Mean: 0.0627358711252992, Test PSNR: 12.03127086468232,
+ Test SSIM: 0.43969330535485196, shadow model mse: 0.0627358711252992 
+Epoch [6/20], Loss: 0.0684
+Test Mean: 0.052782523015943855, Test PSNR: 12.782012957793016,
+ Test SSIM: 0.49425962280768615, shadow model mse: 0.052782523015943855 
+Epoch [7/20], Loss: 0.0584
+Test Mean: 0.046188175511092715, Test PSNR: 13.36183780278915,
+ Test SSIM: 0.536379557962601, shadow model mse: 0.046188175511092715 
+Epoch [8/20], Loss: 0.0512
+Test Mean: 0.041595267036404364, Test PSNR: 13.816927408560728,
+ Test SSIM: 0.5677447739319924, shadow model mse: 0.041595267036404364 
+Epoch [9/20], Loss: 0.0457
+Test Mean: 0.03808182563919287, Test PSNR: 14.200453042984009,
+ Test SSIM: 0.593049223224322, shadow model mse: 0.03808182563919287 
+Epoch [10/20], Loss: 0.0413
+Test Mean: 0.035292746081279636, Test PSNR: 14.531024327644936,
+ Test SSIM: 0.6134374898213607, shadow model mse: 0.035292746081279636 
+Epoch [11/20], Loss: 0.0378
+Test Mean: 0.03297644221964173, Test PSNR: 14.826054114561815,
+ Test SSIM: 0.6307000857897294, shadow model mse: 0.03297644221964173 
+Epoch [12/20], Loss: 0.0349
+Test Mean: 0.0310111119865607, Test PSNR: 15.093115537594526,
+ Test SSIM: 0.6458431512881548, shadow model mse: 0.0310111119865607 
+Epoch [13/20], Loss: 0.0325
+Test Mean: 0.029306306085811976, Test PSNR: 15.338846909694183,
+ Test SSIM: 0.659226166896331, shadow model mse: 0.029306306085811976 
+Epoch [14/20], Loss: 0.0304
+Test Mean: 0.02780726431415249, Test PSNR: 15.567038835623325,
+ Test SSIM: 0.6712729812432559, shadow model mse: 0.02780726431415249 
+Epoch [15/20], Loss: 0.0286
+Test Mean: 0.02647007692557497, Test PSNR: 15.781226402673965,
+ Test SSIM: 0.6822394816539227, shadow model mse: 0.02647007692557497 
+Epoch [16/20], Loss: 0.0270
+Test Mean: 0.02526884228707506, Test PSNR: 15.983064443637163,
+ Test SSIM: 0.692103868493667, shadow model mse: 0.02526884228707506 
+Epoch [17/20], Loss: 0.0256
+Test Mean: 0.024179064107533448, Test PSNR: 16.174644745313206,
+ Test SSIM: 0.7010840315085191, shadow model mse: 0.024179064107533448 
+Epoch [18/20], Loss: 0.0244
+Test Mean: 0.023185985353894722, Test PSNR: 16.3568833057697,
+ Test SSIM: 0.7091934658013858, shadow model mse: 0.023185985353894722 
+Epoch [19/20], Loss: 0.0233
+Test Mean: 0.02227426800303734, Test PSNR: 16.531182570335194,
+ Test SSIM: 0.7165504342470413, shadow model mse: 0.02227426800303734 
+Epoch [20/20], Loss: 0.0224
+Test Mean: 0.021430469440439574, Test PSNR: 16.698955566455158,
+ Test SSIM: 0.7234298812273221, shadow model mse: 0.021430469440439574 
+
+===== attack=urvfl_half  passive defence=none =====
+Test Mean: 0.2519310856094727, Test PSNR: 6.001456569402646,
+ Test SSIM: -0.017919411324561596, shadow model mse: 0.021430469440439574 
+Epoch: 0 running loss: 2.622124195098877 discriminator loos : 4.795828135584442
+Test Mean: 0.09021971895335576, Test PSNR: 10.459365074451153,
+ Test SSIM: 0.327184327901938, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 1.2128476737401424, Average cosine distance : 0.2649452447509154
+Epoch: 1 running loss: 2.3902535438537598 discriminator loos : 4.39261822096059
+Test Mean: 0.08541127289525974, Test PSNR: 10.69305715805445,
+ Test SSIM: 0.3215533775778917, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 1.0960909815934987, Average cosine distance : 0.23896664791764358
+Epoch: 2 running loss: 2.3313422203063965 discriminator loos : 4.215979604318108
+Test Mean: 0.07145420507265207, Test PSNR: 11.467173643601246,
+ Test SSIM: 0.37733274144239914, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 0.9012176807110126, Average cosine distance : 0.20847623164837176
+Epoch: 3 running loss: 2.2894020080566406 discriminator loos : 4.178866255451256
+Test Mean: 0.06753476501370852, Test PSNR: 11.712327541449131,
+ Test SSIM: 0.38633573074371386, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 0.8389351073748026, Average cosine distance : 0.19173803753577745
+Epoch: 4 running loss: 2.2534635066986084 discriminator loos : 4.073697154622683
+Test Mean: 0.060909368575383455, Test PSNR: 12.161528709607246,
+ Test SSIM: 0.42428776717338806, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 0.7532255699237188, Average cosine distance : 0.17503817083361822
+Epoch: 5 running loss: 2.240126848220825 discriminator loos : 3.9683716915023157
+Test Mean: 0.05623588171333839, Test PSNR: 12.507921524536915,
+ Test SSIM: 0.4466516809203686, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 0.6914245669658368, Average cosine distance : 0.1659245853049633
+Epoch: 6 running loss: 2.2272441387176514 discriminator loos : 3.8993629475714453
+Test Mean: 0.056824871291143775, Test PSNR: 12.46309987703959,
+ Test SSIM: 0.44906544991028613, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 0.6833848062998209, Average cosine distance : 0.16570294839449418
+Epoch: 7 running loss: 2.2100868225097656 discriminator loos : 3.8468674350792256
+Test Mean: 0.05718067078254162, Test PSNR: 12.43569243259919,
+ Test SSIM: 0.44624514744067806, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 0.6812658141820859, Average cosine distance : 0.16478540261204427
+Epoch: 8 running loss: 2.193115711212158 discriminator loos : 3.8083770134079624
+Test Mean: 0.05531048872627509, Test PSNR: 12.580092338415293,
+ Test SSIM: 0.45220035371872097, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 0.6517117306207999, Average cosine distance : 0.15889746447404227
+Epoch: 9 running loss: 2.1782290935516357 discriminator loos : 3.774069249462074
+Test Mean: 0.05506191495805979, Test PSNR: 12.599612621160654,
+ Test SSIM: 0.45349243321479893, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 0.6288148218240494, Average cosine distance : 0.15449070748992455
+
+===== attack=urvfl_half  passive defence=rl =====
+Test Mean: 0.2519310856094727, Test PSNR: 6.001456569402646,
+ Test SSIM: -0.017919411324561596, shadow model mse: 0.021430469440439574 
+Epoch: 0 running loss: 2.809948682785034 discriminator loos : 4.48048041773514
+Test Mean: 0.37002004224520463, Test PSNR: 4.337523050797292,
+ Test SSIM: -0.021396101977771673, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 2.5824423157251797, Average cosine distance : 0.5348449540443909
+Epoch: 1 running loss: 2.6942694187164307 discriminator loos : 3.8343762780579045
+Test Mean: 0.37002004224520463, Test PSNR: 4.337523050797292,
+ Test SSIM: -0.021396101977771673, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 2.5824423157251797, Average cosine distance : 0.5348449540443909
+Epoch: 2 running loss: 2.6028192043304443 discriminator loos : 3.653396031554316
+Test Mean: 0.37002004224520463, Test PSNR: 4.337523050797292,
+ Test SSIM: -0.021396101977771673, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 2.5824423157251797, Average cosine distance : 0.5348449540443909
+Epoch: 3 running loss: 2.5520613193511963 discriminator loos : 3.5472045455180425
+Test Mean: 0.37002004224520463, Test PSNR: 4.337523050797292,
+ Test SSIM: -0.021396101977771673, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 2.5824423157251797, Average cosine distance : 0.5348449540443909
+Epoch: 4 running loss: 2.516563892364502 discriminator loos : 3.4633965922073577
+Test Mean: 0.37002004224520463, Test PSNR: 4.337523050797292,
+ Test SSIM: -0.021396101977771673, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 2.5824423157251797, Average cosine distance : 0.5348449540443909
+Epoch: 5 running loss: 2.487914562225342 discriminator loos : 3.388873246689917
+Test Mean: 0.37002004224520463, Test PSNR: 4.337523050797292,
+ Test SSIM: -0.021396101977771673, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 2.5824423157251797, Average cosine distance : 0.5348449540443909
+Epoch: 6 running loss: 2.463253974914551 discriminator loos : 3.3217021707078103
+Test Mean: 0.37002004224520463, Test PSNR: 4.337523050797292,
+ Test SSIM: -0.021396101977771673, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 2.5824423157251797, Average cosine distance : 0.5348449540443909
+Epoch: 7 running loss: 2.4413034915924072 discriminator loos : 3.2614834113859796
+Test Mean: 0.37002004224520463, Test PSNR: 4.337523050797292,
+ Test SSIM: -0.021396101977771673, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 2.5824423157251797, Average cosine distance : 0.5348449540443909
+Epoch: 8 running loss: 2.421529531478882 discriminator loos : 3.2061332622044523
+Test Mean: 0.37002004224520463, Test PSNR: 4.337523050797292,
+ Test SSIM: -0.021396101977771673, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 2.5824423157251797, Average cosine distance : 0.5348449540443909
+Epoch: 9 running loss: 2.4038493633270264 discriminator loos : 3.1567822798876697
+Test Mean: 0.37002004224520463, Test PSNR: 4.337523050797292,
+ Test SSIM: -0.021396101977771673, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 2.5824423157251797, Average cosine distance : 0.5348449540443909
+
+===== attack=urvfl_half  passive defence=clip =====
+Test Mean: 0.2519310856094727, Test PSNR: 6.001456569402646,
+ Test SSIM: -0.017919411324561596, shadow model mse: 0.021430469440439574 
+Epoch: 0 running loss: 2.685772657394409 discriminator loos : 4.611255359649658
+Test Mean: 0.09784476630962811, Test PSNR: 10.106114625930786,
+ Test SSIM: 0.3081015061873656, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 1.3688078897121625, Average cosine distance : 0.3077083470729681
+Epoch: 1 running loss: 2.465013265609741 discriminator loos : 4.121408251641502
+Test Mean: 0.09654825027936544, Test PSNR: 10.161954335677319,
+ Test SSIM: 0.28614512955149013, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 1.2332306985671704, Average cosine distance : 0.28446487394663006
+Epoch: 2 running loss: 2.413163185119629 discriminator loos : 3.9249362240374928
+Test Mean: 0.10459397952908124, Test PSNR: 9.813693523406982,
+ Test SSIM: 0.26264111907818377, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 1.1436750139945593, Average cosine distance : 0.2625816833132353
+Epoch: 3 running loss: 2.374257802963257 discriminator loos : 3.8180993214459487
+Test Mean: 0.09283743994549298, Test PSNR: 10.331393596453545,
+ Test SSIM: 0.2982851934547608, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 1.1082808249271834, Average cosine distance : 0.2531658430130054
+Epoch: 4 running loss: 2.355651378631592 discriminator loos : 3.7375440315461494
+Test Mean: 0.08996511336702567, Test PSNR: 10.46828922858605,
+ Test SSIM: 0.32048575293559295, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 1.0907540493286574, Average cosine distance : 0.24277368149696252
+Epoch: 5 running loss: 2.33176589012146 discriminator loos : 3.6779209150394925
+Test Mean: 0.08681654485945518, Test PSNR: 10.623432422295595,
+ Test SSIM: 0.329052604161776, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 1.0532176490777578, Average cosine distance : 0.24515828805474135
+Epoch: 6 running loss: 2.308199405670166 discriminator loos : 3.6327891853493703
+Test Mean: 0.0812811453659565, Test PSNR: 10.908672540615767,
+ Test SSIM: 0.330131634305685, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 1.0159613940960321, Average cosine distance : 0.23888375371312484
+Epoch: 7 running loss: 2.285564422607422 discriminator loos : 3.5559748777201476
+Test Mean: 0.07627304199223335, Test PSNR: 11.185893920751719,
+ Test SSIM: 0.35989701671478075, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 0.9871056362604483, Average cosine distance : 0.22937291851028418
+Epoch: 8 running loss: 2.271280288696289 discriminator loos : 3.507785627203928
+Test Mean: 0.07665334828197956, Test PSNR: 11.164142290751139,
+ Test SSIM: 0.3548058674503595, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 0.9885258632592666, Average cosine distance : 0.23086237525328612
+Epoch: 9 running loss: 2.2589340209960938 discriminator loos : 3.459477497154558
+Test Mean: 0.07949191303207324, Test PSNR: 11.006238368841318,
+ Test SSIM: 0.3452609662826245, shadow model mse: 0.021430469440439574 
+Average mse distance of embedding : 1.0109739571045606, Average cosine distance : 0.23380447819064826
+[saved] C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\cifar10\rl_defense_result\seed42\results.json
+
+===== attack=sync  passive defence=none =====
+Epoch: 0 Decoder Loss: 0.06852112710475922, model loss: 2.40906023979187
+Test Mean: 0.07350231038454251, Test PSNR: 11.348237227170895,
+ Test SSIM: 0.4160998987081723, shadow model mse: 0.020337923537366666 
+Average mse distance of embedding : 1.0760803818702698, Average cosine distance : 0.22300767936767676
+Epoch: 1 Decoder Loss: 0.015231852419674397, model loss: 2.282695770263672
+Test Mean: 0.03779680817985, Test PSNR: 14.233567433479505,
+ Test SSIM: 0.5732482943015221, shadow model mse: 0.011899720662488388 
+Average mse distance of embedding : 0.6391457410959097, Average cosine distance : 0.13933823257684708
+Epoch: 2 Decoder Loss: 0.0100720738992095, model loss: 2.2269957065582275
+Test Mean: 0.03279187230584331, Test PSNR: 14.85235074850229,
+ Test SSIM: 0.5903124958276749, shadow model mse: 0.008657339697655959 
+Average mse distance of embedding : 0.542536371984543, Average cosine distance : 0.12616021119249174
+Epoch: 3 Decoder Loss: 0.0076953996904194355, model loss: 2.1779048442840576
+Test Mean: 0.02874801492987153, Test PSNR: 15.424179321680313,
+ Test SSIM: 0.6044137611603125, shadow model mse: 0.006819902534166781 
+Average mse distance of embedding : 0.44214354913968307, Average cosine distance : 0.10344630198027843
+Epoch: 4 Decoder Loss: 0.00630471995100379, model loss: 2.1192896366119385
+Test Mean: 0.02098775717119376, Test PSNR: 16.791809412149284,
+ Test SSIM: 0.70068292090526, shadow model mse: 0.005663961112403717 
+Average mse distance of embedding : 0.3827415101039104, Average cosine distance : 0.08862092775794175
+Epoch: 5 Decoder Loss: 0.00535494415089488, model loss: 2.0707991123199463
+Test Mean: 0.017240149810766943, Test PSNR: 17.64448125545795,
+ Test SSIM: 0.7268692327615542, shadow model mse: 0.0048641706966102505 
+Average mse distance of embedding : 0.3277709663678438, Average cosine distance : 0.0764693598716687
+Epoch: 6 Decoder Loss: 0.004690240602940321, model loss: 2.0439274311065674
+Test Mean: 0.01801950271384647, Test PSNR: 17.453889895708134,
+ Test SSIM: 0.7222218142870145, shadow model mse: 0.004284755070096789 
+Average mse distance of embedding : 0.31191211977066136, Average cosine distance : 0.0724720457712045
+Epoch: 7 Decoder Loss: 0.004182965029031038, model loss: 2.021008014678955
+Test Mean: 0.015156370629437076, Test PSNR: 18.204058671608948,
+ Test SSIM: 0.749053934827829, shadow model mse: 0.003743213090973978 
+Average mse distance of embedding : 0.2674577161669731, Average cosine distance : 0.06081508747182596
+Epoch: 8 Decoder Loss: 0.0037901627365499735, model loss: 1.9858763217926025
+Test Mean: 0.012579518674801175, Test PSNR: 19.015375210688664,
+ Test SSIM: 0.7781346295124445, shadow model mse: 0.003445233048226398 
+Average mse distance of embedding : 0.23456575511357722, Average cosine distance : 0.05543409970899423
+Epoch: 9 Decoder Loss: 0.0034778695553541183, model loss: 1.9552141427993774
+Test Mean: 0.012507107908813616, Test PSNR: 19.04267309873532,
+ Test SSIM: 0.7823892453542123, shadow model mse: 0.0031058581632514223 
+Average mse distance of embedding : 0.21921789550628418, Average cosine distance : 0.051682551916784204
+
+===== attack=sync  passive defence=rl =====
+Epoch: 0 Decoder Loss: 0.06852112710475922, model loss: 2.466970443725586
+Test Mean: 0.1401861090786182, Test PSNR: 8.542513789274754,
+ Test SSIM: 0.1436671099315087, shadow model mse: 0.020337923537366666 
+Average mse distance of embedding : 1.8237746105744288, Average cosine distance : 0.39172680293902373
+Epoch: 1 Decoder Loss: 0.015231852419674397, model loss: 2.3140151500701904
+Test Mean: 0.1343739205159438, Test PSNR: 8.725761878184784,
+ Test SSIM: 0.16002716964636093, shadow model mse: 0.011899720662488388 
+Average mse distance of embedding : 1.9065560262936811, Average cosine distance : 0.4056161485421352
+Epoch: 2 Decoder Loss: 0.0100720738992095, model loss: 2.222188711166382
+Test Mean: 0.13644354809553194, Test PSNR: 8.659063192514273,
+ Test SSIM: 0.15957381614507773, shadow model mse: 0.008657339697655959 
+Average mse distance of embedding : 1.9418174838408446, Average cosine distance : 0.41241312963076127
+Epoch: 3 Decoder Loss: 0.0076953996904194355, model loss: 2.1620893478393555
+Test Mean: 0.12712400100934199, Test PSNR: 8.966402359497852,
+ Test SSIM: 0.1890076553592315, shadow model mse: 0.006819902534166781 
+Average mse distance of embedding : 1.8107917186541436, Average cosine distance : 0.38202707870648456
+Epoch: 4 Decoder Loss: 0.00630471995100379, model loss: 2.1828911304473877
+Test Mean: 0.08017151544873531, Test PSNR: 10.970131812951504,
+ Test SSIM: 0.3964281953298129, shadow model mse: 0.005663961112403717 
+Average mse distance of embedding : 1.168250751418945, Average cosine distance : 0.24543265463450017
+Epoch: 5 Decoder Loss: 0.00535494415089488, model loss: 2.260948419570923
+Test Mean: 0.055333179326202624, Test PSNR: 12.58329123717088,
+ Test SSIM: 0.4893620999959799, shadow model mse: 0.0048641706966102505 
+Average mse distance of embedding : 0.713934701986802, Average cosine distance : 0.15983959268300962
+Epoch: 6 Decoder Loss: 0.004690240602940321, model loss: 2.2090084552764893
+Test Mean: 0.03279158317794403, Test PSNR: 14.851171799195118,
+ Test SSIM: 0.5972799074191314, shadow model mse: 0.004284755070096789 
+Average mse distance of embedding : 0.5397544803145604, Average cosine distance : 0.12183096560721214
+Epoch: 7 Decoder Loss: 0.004182965029031038, model loss: 2.1326210498809814
+Test Mean: 0.022164026788698558, Test PSNR: 16.55369872924609,
+ Test SSIM: 0.6885892958977283, shadow model mse: 0.003743213090973978 
+Average mse distance of embedding : 0.3645421998241009, Average cosine distance : 0.08435332068266013
+Epoch: 8 Decoder Loss: 0.0037901627365499735, model loss: 2.069004774093628
+Test Mean: 0.01841088620802531, Test PSNR: 17.358461881295227,
+ Test SSIM: 0.7146336329288971, shadow model mse: 0.003445233048226398 
+Average mse distance of embedding : 0.31243984210185516, Average cosine distance : 0.07480348364855999
+Epoch: 9 Decoder Loss: 0.0034778695553541183, model loss: 2.040123224258423
+Test Mean: 0.01731468627277093, Test PSNR: 17.62429001392462,
+ Test SSIM: 0.7192880358451452, shadow model mse: 0.0031058581632514223 
+Average mse distance of embedding : 0.29893308343031466, Average cosine distance : 0.07027673821609753
+
+===== attack=sync  passive defence=clip =====
+Epoch: 0 Decoder Loss: 0.06852112710475922, model loss: 2.4577183723449707
+Test Mean: 0.09196116531697604, Test PSNR: 10.376098859004486,
+ Test SSIM: 0.34033077363020336, shadow model mse: 0.020337923537366666 
+Average mse distance of embedding : 1.3041929251108415, Average cosine distance : 0.26713247215136504
+Epoch: 1 Decoder Loss: 0.015231852419674397, model loss: 2.3044605255126953
+Test Mean: 0.05097900218784045, Test PSNR: 12.935120765979473,
+ Test SSIM: 0.48325780244209826, shadow model mse: 0.011899720662488388 
+Average mse distance of embedding : 0.749981741874646, Average cosine distance : 0.1750377772901303
+Epoch: 2 Decoder Loss: 0.0100720738992095, model loss: 2.2613680362701416
+Test Mean: 0.04623668507123605, Test PSNR: 13.358540651125786,
+ Test SSIM: 0.48831469680254275, shadow model mse: 0.008657339697655959 
+Average mse distance of embedding : 0.6616617020888206, Average cosine distance : 0.15775578153821138
+Epoch: 3 Decoder Loss: 0.0076953996904194355, model loss: 2.2084553241729736
+Test Mean: 0.03417512140451716, Test PSNR: 14.668460815380781,
+ Test SSIM: 0.5574550284789159, shadow model mse: 0.006819902534166781 
+Average mse distance of embedding : 0.5317571591108273, Average cosine distance : 0.12154330413501996
+Epoch: 4 Decoder Loss: 0.00630471995100379, model loss: 2.162511110305786
+Test Mean: 0.02726580126163287, Test PSNR: 15.651992241541544,
+ Test SSIM: 0.6221073201069465, shadow model mse: 0.005663961112403717 
+Average mse distance of embedding : 0.4303050472950324, Average cosine distance : 0.10024292303774601
+Epoch: 5 Decoder Loss: 0.00535494415089488, model loss: 2.1207001209259033
+Test Mean: 0.023959348527475808, Test PSNR: 16.21494307884803,
+ Test SSIM: 0.6594569652508466, shadow model mse: 0.0048641706966102505 
+Average mse distance of embedding : 0.380136054677841, Average cosine distance : 0.08793576601415108
+Epoch: 6 Decoder Loss: 0.004690240602940321, model loss: 2.089198589324951
+Test Mean: 0.020257998472796038, Test PSNR: 16.943050188895985,
+ Test SSIM: 0.6875582857009692, shadow model mse: 0.004284755070096789 
+Average mse distance of embedding : 0.33824386944373447, Average cosine distance : 0.07847676779597233
+Epoch: 7 Decoder Loss: 0.004182965029031038, model loss: 2.061980962753296
+Test Mean: 0.02161206332489084, Test PSNR: 16.665274277711525,
+ Test SSIM: 0.6717268889531111, shadow model mse: 0.003743213090973978 
+Average mse distance of embedding : 0.31838870487916165, Average cosine distance : 0.07509747309944569
+Epoch: 8 Decoder Loss: 0.0037901627365499735, model loss: 2.034358024597168
+Test Mean: 0.018402372689869922, Test PSNR: 17.360756433927097,
+ Test SSIM: 0.7088862202870541, shadow model mse: 0.003445233048226398 
+Average mse distance of embedding : 0.2808401729816046, Average cosine distance : 0.06758447843961991
+Epoch: 9 Decoder Loss: 0.0034778695553541183, model loss: 2.0088701248168945
+Test Mean: 0.017386876888429888, Test PSNR: 17.605625751690987,
+ Test SSIM: 0.7102908155856988, shadow model mse: 0.0031058581632514223 
+Average mse distance of embedding : 0.2708054485802467, Average cosine distance : 0.06356870600332816
+[saved] C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\cifar10\rl_defense_result\seed42\results.json
+STAGE2 DONE
+Using device: cuda   seed: 42   arms: ['none', 'rl', 'clip']
+Files already downloaded and verified
+Files already downloaded and verified
+
+===== attack=fsha  passive defence=none =====
+Epoch: 0 Decoder Loss: 0.06250233948230743, model loss: 0.44962999325403025
+Average mse distance of embedding : 1.6763428006416712, Average cosine distance : 0.31281678760663056
+Test Mean: 0.11435816064476967, Test PSNR: 9.423936697152945,
+ Test SSIM: 0.3523250359755296, shadow model mse: 0.019884684923081063 
+Epoch: 1 Decoder Loss: 0.015745149925351143, model loss: 0.4570734640242348
+Average mse distance of embedding : 1.2046634333255963, Average cosine distance : 0.2854569733907015
+Test Mean: 0.08415007916016456, Test PSNR: 10.762851189344357,
+ Test SSIM: 0.4274900106665416, shadow model mse: 0.012252417410938786 
+Epoch: 2 Decoder Loss: 0.01032907236367464, model loss: 0.4778296410197943
+Average mse distance of embedding : 1.1536931028732886, Average cosine distance : 0.2755873468823922
+Test Mean: 0.10805601774691007, Test PSNR: 9.675969686263647,
+ Test SSIM: 0.3412845694483855, shadow model mse: 0.008584685787821237 
+Epoch: 3 Decoder Loss: 0.007837751880288124, model loss: 0.4613374216455809
+Average mse distance of embedding : 0.821729818979899, Average cosine distance : 0.21484429045365408
+Test Mean: 0.07657260447740555, Test PSNR: 11.170317435875917,
+ Test SSIM: 0.4015938943395248, shadow model mse: 0.006797286416165149 
+Epoch: 4 Decoder Loss: 0.006418531760573387, model loss: 0.45569417443073973
+Average mse distance of embedding : 0.8107119187330588, Average cosine distance : 0.22535536648371282
+Test Mean: 0.06384993659762236, Test PSNR: 11.960020866149511,
+ Test SSIM: 0.419216618514978, shadow model mse: 0.00567165600697104 
+Epoch: 5 Decoder Loss: 0.005465585272759199, model loss: 0.46742732063145703
+Average mse distance of embedding : 0.6892223113622421, Average cosine distance : 0.17796886559480277
+Test Mean: 0.05092635521521935, Test PSNR: 12.94284044779264,
+ Test SSIM: 0.5031650121777486, shadow model mse: 0.004986173395688335 
+Epoch: 6 Decoder Loss: 0.0048042419366538525, model loss: 0.46613783198343195
+Average mse distance of embedding : 0.6427922699695978, Average cosine distance : 0.17688710529070634
+Test Mean: 0.05301609446700567, Test PSNR: 12.76621868671515,
+ Test SSIM: 0.48001312483579683, shadow model mse: 0.004352895829540033 
+Epoch: 7 Decoder Loss: 0.004297114443033934, model loss: 0.45548270000538355
+Average mse distance of embedding : 0.6086913920365847, Average cosine distance : 0.14783455249972832
+Test Mean: 0.05233330434809128, Test PSNR: 12.819790528370785,
+ Test SSIM: 0.5199618194347773, shadow model mse: 0.003905221791520046 
+Epoch: 8 Decoder Loss: 0.0039047717582434416, model loss: 0.45003783694455324
+Average mse distance of embedding : 0.5313373141181774, Average cosine distance : 0.13756232446011823
+Test Mean: 0.04722066445705982, Test PSNR: 13.267670747561333,
+ Test SSIM: 0.5137955135641954, shadow model mse: 0.0035689914052804503 
+Epoch: 9 Decoder Loss: 0.0035903211683034897, model loss: 0.4517470591504809
+Average mse distance of embedding : 0.6608015898710642, Average cosine distance : 0.16527764203074652
+Test Mean: 0.0661713855388837, Test PSNR: 11.805739072652964,
+ Test SSIM: 0.4558574954668681, shadow model mse: 0.0032261510451252642 
+
+===== attack=fsha  passive defence=rl =====
+Epoch: 0 Decoder Loss: 0.06250239163637161, model loss: 0.6304984462932801
+Average mse distance of embedding : 1.9939455099594898, Average cosine distance : 0.5133548344557102
+Test Mean: 0.23780532334095392, Test PSNR: 6.251344393461179,
+ Test SSIM: 0.0366057629744785, shadow model mse: 0.019884227978017848 
+Epoch: 1 Decoder Loss: 0.01574569009244442, model loss: 0.6934641626519217
+Average mse distance of embedding : 1.9348933429290087, Average cosine distance : 0.5202955668553327
+Test Mean: 0.24049103288696363, Test PSNR: 6.203265969569866,
+ Test SSIM: 0.0511788603109427, shadow model mse: 0.01225258063716002 
+Epoch: 2 Decoder Loss: 0.010329317301511765, model loss: 0.6938398755772013
+Average mse distance of embedding : 1.9575845652665846, Average cosine distance : 0.5263904543259205
+Test Mean: 0.24349761983523002, Test PSNR: 6.1493253493920355,
+ Test SSIM: 0.05437611599858755, shadow model mse: 0.008584447894603588 
+Epoch: 3 Decoder Loss: 0.007837941870093346, model loss: 0.6937638668946817
+Average mse distance of embedding : 2.00115044376789, Average cosine distance : 0.5319944994571881
+Test Mean: 0.24791267628853136, Test PSNR: 6.071099250744551,
+ Test SSIM: 0.05498712175549605, shadow model mse: 0.0067978787462776285 
+Epoch: 4 Decoder Loss: 0.006418655160814524, model loss: 0.6936505327762013
+Average mse distance of embedding : 1.9737689525653155, Average cosine distance : 0.5331405091744202
+Test Mean: 0.2500808840760818, Test PSNR: 6.032964617778093,
+ Test SSIM: 0.05522564882173752, shadow model mse: 0.0056727447290307815 
+Epoch: 5 Decoder Loss: 0.0054657128639519215, model loss: 0.6935388618791607
+Average mse distance of embedding : 1.9473339380362096, Average cosine distance : 0.5322037071753771
+Test Mean: 0.2515155423719149, Test PSNR: 6.007865288318732,
+ Test SSIM: 0.0557033779959266, shadow model mse: 0.004984191881540494 
+Epoch: 6 Decoder Loss: 0.004804408643394709, model loss: 0.693442986380886
+Average mse distance of embedding : 2.00078822634159, Average cosine distance : 0.5333299889014318
+Test Mean: 0.25193814885539884, Test PSNR: 6.000234503012437,
+ Test SSIM: 0.05606268625706434, shadow model mse: 0.004352673176282014 
+Epoch: 7 Decoder Loss: 0.004297176375985146, model loss: 0.6933742407342078
+Average mse distance of embedding : 2.014665202452586, Average cosine distance : 0.5331920599326109
+Test Mean: 0.2562232599235498, Test PSNR: 5.926999691205147,
+ Test SSIM: 0.056549481402796045, shadow model mse: 0.0039039759669834985 
+Epoch: 8 Decoder Loss: 0.00390472449362278, model loss: 0.6933211706054043
+Average mse distance of embedding : 1.9759844503341577, Average cosine distance : 0.5323713975839126
+Test Mean: 0.25770413560362965, Test PSNR: 5.901889788798797,
+ Test SSIM: 0.0570905397240168, shadow model mse: 0.0035687688505277038 
+Epoch: 9 Decoder Loss: 0.0035903030075132847, model loss: 0.6932780099586702
+Average mse distance of embedding : 1.9944718885116088, Average cosine distance : 0.5330793788799872
+Test Mean: 0.25806211384061056, Test PSNR: 5.8956581965470924,
+ Test SSIM: 0.05792428784741041, shadow model mse: 0.0032253949873101637 
+
+===== attack=fsha  passive defence=clip =====
+Epoch: 0 Decoder Loss: 0.06250187009572983, model loss: 0.5126004779842538
+Average mse distance of embedding : 1.9510589387172308, Average cosine distance : 0.4528599024201051
+Test Mean: 0.20549617965634054, Test PSNR: 6.883195959604704,
+ Test SSIM: 0.10235620261384891, shadow model mse: 0.01988464054197837 
+Epoch: 1 Decoder Loss: 0.015745392069220543, model loss: 0.5294781366704215
+Average mse distance of embedding : 1.0144469745648212, Average cosine distance : 0.26174851172627545
+Test Mean: 0.08764200781782468, Test PSNR: 10.582021101927145,
+ Test SSIM: 0.3882455923236333, shadow model mse: 0.012251926789012475 
+Epoch: 2 Decoder Loss: 0.010329336859285831, model loss: 0.5505431575674407
+Average mse distance of embedding : 1.2668691758926098, Average cosine distance : 0.2965697065377847
+Test Mean: 0.15059407270298555, Test PSNR: 8.235968721218597,
+ Test SSIM: 0.27321856249219334, shadow model mse: 0.008584597022630848 
+Epoch: 3 Decoder Loss: 0.007837981916964054, model loss: 0.5359700958493729
+Average mse distance of embedding : 0.9150966306527456, Average cosine distance : 0.2217581918797432
+Test Mean: 0.08455516335864861, Test PSNR: 10.742364608324491,
+ Test SSIM: 0.40333939897708404, shadow model mse: 0.006797709472429676 
+Epoch: 4 Decoder Loss: 0.0064187305979430676, model loss: 0.518011597680374
+Average mse distance of embedding : 0.7921213465623367, Average cosine distance : 0.20999541955116469
+Test Mean: 0.0763764874293254, Test PSNR: 11.183349010271904,
+ Test SSIM: 0.40144835374294185, shadow model mse: 0.005672638543332234 
+Epoch: 5 Decoder Loss: 0.005465762689709663, model loss: 0.5078142412111792
+Average mse distance of embedding : 0.6887189661845182, Average cosine distance : 0.19996481283735007
+Test Mean: 0.06601778673342405, Test PSNR: 11.820158982888247,
+ Test SSIM: 0.4204183161640779, shadow model mse: 0.004984467735108084 
+Epoch: 6 Decoder Loss: 0.004804386757314205, model loss: 0.5207812286598582
+Average mse distance of embedding : 0.613840856613257, Average cosine distance : 0.17393836952172792
+Test Mean: 0.0564093634677239, Test PSNR: 12.507369897304438,
+ Test SSIM: 0.4947930362362128, shadow model mse: 0.004352928458665235 
+Epoch: 7 Decoder Loss: 0.004297152161598206, model loss: 0.5153356544568505
+Average mse distance of embedding : 1.0677208778185723, Average cosine distance : 0.25006034559546375
+Test Mean: 0.14967158656471816, Test PSNR: 8.269529281518398,
+ Test SSIM: 0.29461840530618644, shadow model mse: 0.0039046713918184815 
+Epoch: 8 Decoder Loss: 0.003904818557202816, model loss: 0.5088422082679372
+Average mse distance of embedding : 0.646204377978276, Average cosine distance : 0.17485315476854643
+Test Mean: 0.078190420802014, Test PSNR: 11.09616426932506,
+ Test SSIM: 0.4533558237629059, shadow model mse: 0.0035699447990060807 
+Epoch: 9 Decoder Loss: 0.0035903151147067547, model loss: 0.49562283720768674
+Average mse distance of embedding : 0.7804784087034372, Average cosine distance : 0.1969457002213368
+Test Mean: 0.10605088339593166, Test PSNR: 9.776864375823584,
+ Test SSIM: 0.38768407778862196, shadow model mse: 0.0032261935158226737 
+[saved] C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\cifar10\rl_defense_result\seed42\results.json
+
+===== attack=agn  passive defence=none =====
+Epoch: 0 Decoder Loss: 0.4211099445819855, disc loss: 1.5548396110534668
+AGN Test Mean: 0.6751213822609339, AGN PSNR :7.732339458587842, AGN SSIM:0.011442367968042023
+Epoch: 1 Decoder Loss: 0.4006035625934601, disc loss: 1.5475431680679321
+AGN Test Mean: 0.5736879255527105, AGN PSNR :8.436385387029404, AGN SSIM:0.016616319318134815
+Epoch: 2 Decoder Loss: 0.40992629528045654, disc loss: 1.5315974950790405
+AGN Test Mean: 0.7254690145834898, AGN PSNR :7.41711522371341, AGN SSIM:0.012430399954050349
+Epoch: 3 Decoder Loss: 0.4080800712108612, disc loss: 1.5188268423080444
+AGN Test Mean: 0.6694959497604615, AGN PSNR :7.766215981581272, AGN SSIM:0.02111835508213307
+Epoch: 4 Decoder Loss: 0.40938031673431396, disc loss: 1.5140085220336914
+AGN Test Mean: 0.7132621109485626, AGN PSNR :7.490337301523257, AGN SSIM:0.003915446110813019
+Epoch: 5 Decoder Loss: 0.40847328305244446, disc loss: 1.5052781105041504
+AGN Test Mean: 0.44406643509864807, AGN PSNR :9.553467133106329, AGN SSIM:0.0024411593118342212
+Epoch: 6 Decoder Loss: 0.40887248516082764, disc loss: 1.5047143697738647
+AGN Test Mean: 0.5523230653160658, AGN PSNR :8.601618375533667, AGN SSIM:0.00395392926647895
+Epoch: 7 Decoder Loss: 0.4074755311012268, disc loss: 1.5060524940490723
+AGN Test Mean: 0.48147260665129393, AGN PSNR :9.203565713686821, AGN SSIM:0.0090376801635079
+Epoch: 8 Decoder Loss: 0.4044160544872284, disc loss: 1.5090941190719604
+AGN Test Mean: 0.5477733338872591, AGN PSNR :8.642132178331034, AGN SSIM:0.012853864916206267
+Epoch: 9 Decoder Loss: 0.40675461292266846, disc loss: 1.5060828924179077
+AGN Test Mean: 0.6615149802886523, AGN PSNR :7.81798919958946, AGN SSIM:0.01603146048877627
+
+===== attack=agn  passive defence=rl =====
+Epoch: 0 Decoder Loss: 0.4173235297203064, disc loss: 1.5573045015335083
+AGN Test Mean: 0.5135943952661294, AGN PSNR :8.920358125980083, AGN SSIM:0.015839170819769304
+Epoch: 1 Decoder Loss: 0.4039595127105713, disc loss: 1.5391671657562256
+AGN Test Mean: 0.6169396493679438, AGN PSNR :8.12433165158981, AGN SSIM:0.020786651380312365
+Epoch: 2 Decoder Loss: 0.4018282890319824, disc loss: 1.536946415901184
+AGN Test Mean: 0.6594411952373309, AGN PSNR :7.832874591533955, AGN SSIM:0.01626351978092526
+Epoch: 3 Decoder Loss: 0.40904170274734497, disc loss: 1.5204346179962158
+AGN Test Mean: 0.5011037544180186, AGN PSNR :9.02975383782998, AGN SSIM:0.016010903405586783
+Epoch: 4 Decoder Loss: 0.40726807713508606, disc loss: 1.5191237926483154
+AGN Test Mean: 0.8913585730852225, AGN PSNR :6.523195642691392, AGN SSIM:0.011092082979396367
+Epoch: 5 Decoder Loss: 0.4119749665260315, disc loss: 1.5082478523254395
+AGN Test Mean: 0.6539598260170374, AGN PSNR :7.868177233598171, AGN SSIM:0.010825331621349622
+Epoch: 6 Decoder Loss: 0.40527549386024475, disc loss: 1.5157697200775146
+AGN Test Mean: 0.6100693027942609, AGN PSNR :8.16905793776879, AGN SSIM:0.013797923158376645
+Epoch: 7 Decoder Loss: 0.4020322263240814, disc loss: 1.518044352531433
+AGN Test Mean: 0.6381101975074182, AGN PSNR :7.978588688067901, AGN SSIM:0.00706828281787845
+Epoch: 8 Decoder Loss: 0.4104483723640442, disc loss: 1.50529944896698
+AGN Test Mean: 0.7071915589846097, AGN PSNR :7.530103600942171, AGN SSIM:0.010038533579343213
+Epoch: 9 Decoder Loss: 0.40226414799690247, disc loss: 1.5176857709884644
+AGN Test Mean: 0.5558412793355111, AGN PSNR :8.574426045784584, AGN SSIM:0.007432575758474951
+
+===== attack=agn  passive defence=clip =====
+Epoch: 0 Decoder Loss: 0.4202529788017273, disc loss: 1.554236888885498
+AGN Test Mean: 0.7412163332486764, AGN PSNR :7.328290328001365, AGN SSIM:0.014080062868276563
+Epoch: 1 Decoder Loss: 0.4075567424297333, disc loss: 1.5421942472457886
+AGN Test Mean: 0.7091079346644573, AGN PSNR :7.517454596666189, AGN SSIM:0.008493250344121734
+Epoch: 2 Decoder Loss: 0.40790092945098877, disc loss: 1.5226339101791382
+AGN Test Mean: 0.7216740044263693, AGN PSNR :7.440668219175095, AGN SSIM:0.023734750088829644
+Epoch: 3 Decoder Loss: 0.4111078679561615, disc loss: 1.5097031593322754
+AGN Test Mean: 0.6034263169918305, AGN PSNR :8.21787985165914, AGN SSIM:0.010294731706380844
+Epoch: 4 Decoder Loss: 0.4091087281703949, disc loss: 1.5055880546569824
+AGN Test Mean: 0.6911111565736624, AGN PSNR :7.62948585779239, AGN SSIM:0.013382607508295527
+Epoch: 5 Decoder Loss: 0.4079227149486542, disc loss: 1.5065909624099731
+AGN Test Mean: 0.49761056957336575, AGN PSNR :9.056835626944517, AGN SSIM:0.01486755740375091
+Epoch: 6 Decoder Loss: 0.4076107442378998, disc loss: 1.5133533477783203
+AGN Test Mean: 0.5828946916720806, AGN PSNR :8.369429900096012, AGN SSIM:0.013156558866075311
+Epoch: 7 Decoder Loss: 0.4129904806613922, disc loss: 1.4919966459274292
+AGN Test Mean: 0.47468066158202976, AGN PSNR :9.261094117775942, AGN SSIM:0.005405483027294768
+Epoch: 8 Decoder Loss: 0.40424078702926636, disc loss: 1.5118646621704102
+AGN Test Mean: 0.42543756598845506, AGN PSNR :9.739664456783197, AGN SSIM:0.013194875084968189
+Epoch: 9 Decoder Loss: 0.40285351872444153, disc loss: 1.5120900869369507
+AGN Test Mean: 0.6032079171675903, AGN PSNR :8.221468216333633, AGN SSIM:0.012029386981456086
+[saved] C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\cifar10\rl_defense_result\seed42\results.json
+STAGE3 DONE
+Using device: cuda   seed: 42   arms: ['splitguard']
+Files already downloaded and verified
+Files already downloaded and verified
+[attacker] loaded cached pretrained attacker eval_urvfl_parts_seed42_paper_e20.pt
+
+===== attack=urvfl  passive defence=splitguard =====
+Test Mean: 0.18426177851282632, Test PSNR: 7.358811094210698,
+ Test SSIM: 0.20461731461378244, shadow model mse: 0.01206304573525603 
+[splitguard-fixed/urvfl] epoch 1: 15 SG scores, mean of last 15: 0.522  -> DETECTED, training stopped
+[saved] C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\cifar10\rl_defense_result\seed42\results.json
+Accuracy: 0.43569710850715637
+[splitguard-fixed/normal] epoch 1: 30 SG scores, mean of last 15: 0.999
+Accuracy: 0.5027043223381042
+[splitguard-fixed/normal] epoch 2: 64 SG scores, mean of last 15: 0.999
+Accuracy: 0.5174278616905212
+[splitguard-fixed/normal] epoch 3: 99 SG scores, mean of last 15: 0.999
+Accuracy: 0.53125
+[splitguard-fixed/normal] epoch 4: 136 SG scores, mean of last 15: 0.999
+Accuracy: 0.5406650900840759
+[splitguard-fixed/normal] epoch 5: 174 SG scores, mean of last 15: 0.999
+Accuracy: 0.5536859035491943
+[splitguard-fixed/normal] epoch 6: 203 SG scores, mean of last 15: 0.999
+Accuracy: 0.5510817170143127
+[splitguard-fixed/normal] epoch 7: 238 SG scores, mean of last 15: 0.999
+Accuracy: 0.5057091116905212
+[splitguard-fixed/normal] epoch 8: 271 SG scores, mean of last 15: 0.999
+Accuracy: 0.5279447436332703
+[splitguard-fixed/normal] epoch 9: 310 SG scores, mean of last 15: 0.998
+Accuracy: 0.4557291865348816
+[splitguard-fixed/normal] epoch 10: 346 SG scores, mean of last 15: 0.998
+[saved] C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\cifar10\rl_defense_result\seed42\results.json
+STAGE4 DONE

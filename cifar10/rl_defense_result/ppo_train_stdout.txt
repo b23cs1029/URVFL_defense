@@ -1,0 +1,42 @@
+[ppo] collecting warm-up statistics with a random policy ...
+[ppo] it   0  R_honest -0.839  R_attack -0.128  honest acc/dw/clip/rej [0.24 0.24 0.29 0.22]  attack [0.28 0.23 0.26 0.22]  ent 1.384  73s
+[ppo] it   1  R_honest -0.687  R_attack -0.140  honest acc/dw/clip/rej [0.25 0.2  0.33 0.22]  attack [0.21 0.23 0.24 0.31]  ent 1.366  130s
+[ppo] it   2  R_honest -0.682  R_attack -0.014  honest acc/dw/clip/rej [0.4  0.16 0.28 0.16]  attack [0.17 0.32 0.19 0.32]  ent 1.340  188s
+[ppo] it   3  R_honest -0.851  R_attack -0.347  honest acc/dw/clip/rej [0.41 0.17 0.22 0.2 ]  attack [0.21 0.32 0.18 0.29]  ent 1.306  251s
+[ppo] it   4  R_honest -0.739  R_attack -0.353  honest acc/dw/clip/rej [0.61 0.1  0.12 0.16]  attack [0.19 0.28 0.15 0.38]  ent 1.199  306s
+[ppo] it   5  R_honest -0.826  R_attack +0.087  honest acc/dw/clip/rej [0.67 0.07 0.14 0.11]  attack [0.07 0.34 0.12 0.47]  ent 1.047  367s
+[ppo] it   6  R_honest -0.298  R_attack -0.053  honest acc/dw/clip/rej [0.65 0.09 0.14 0.12]  attack [0.09 0.41 0.11 0.39]  ent 1.096  429s
+[ppo] it   7  R_honest -0.480  R_attack -0.009  honest acc/dw/clip/rej [0.72 0.05 0.15 0.08]  attack [0.05 0.41 0.13 0.41]  ent 0.948  490s
+[ppo] it   8  R_honest -0.360  R_attack -0.426  honest acc/dw/clip/rej [0.79 0.08 0.09 0.04]  attack [0.05 0.24 0.18 0.54]  ent 0.784  555s
+[ppo] it   9  R_honest -0.531  R_attack +0.061  honest acc/dw/clip/rej [0.88 0.02 0.08 0.02]  attack [0.   0.2  0.07 0.73]  ent 0.694  602s
+[ppo] it  10  R_honest -0.950  R_attack -0.396  honest acc/dw/clip/rej [0.98 0.02 0.   0.  ]  attack [0.01 0.23 0.08 0.68]  ent 0.608  649s
+[ppo] it  11  R_honest -0.608  R_attack -0.200  honest acc/dw/clip/rej [0.94 0.   0.05 0.01]  attack [0.01 0.07 0.05 0.87]  ent 0.357  698s
+[ppo] it  12  R_honest -0.586  R_attack -0.294  honest acc/dw/clip/rej [0.92 0.02 0.05 0.01]  attack [0.   0.04 0.02 0.94]  ent 0.207  751s
+[ppo] it  13  R_honest -0.358  R_attack -0.078  honest acc/dw/clip/rej [0.98 0.01 0.02 0.  ]  attack [0.   0.01 0.   0.98]  ent 0.116  790s
+[ppo] it  14  R_honest -0.306  R_attack -0.014  honest acc/dw/clip/rej [0.92 0.03 0.05 0.  ]  attack [0.   0.   0.01 0.99]  ent 0.143  843s
+[ppo] it  15  R_honest -0.199  R_attack -0.016  honest acc/dw/clip/rej [0.95 0.03 0.02 0.  ]  attack [0.   0.01 0.   0.99]  ent 0.162  902s
+[ppo] it  16  R_honest -0.237  R_attack -0.025  honest acc/dw/clip/rej [0.94 0.02 0.04 0.  ]  attack [0.   0.01 0.01 0.99]  ent 0.122  960s
+[ppo] it  17  R_honest -0.316  R_attack -0.012  honest acc/dw/clip/rej [0.96 0.01 0.02 0.  ]  attack [0. 0. 0. 1.]  ent 0.050  1012s
+[ppo] it  18  R_honest -0.404  R_attack +0.000  honest acc/dw/clip/rej [1. 0. 0. 0.]  attack [0. 0. 0. 1.]  ent 0.035  1064s
+[ppo] it  19  R_honest -0.343  R_attack -0.008  honest acc/dw/clip/rej [1. 0. 0. 0.]  attack [0.   0.02 0.   0.98]  ent 0.062  1130s
+[ppo] it  20  R_honest -0.407  R_attack +0.000  honest acc/dw/clip/rej [0.99 0.   0.01 0.  ]  attack [0. 0. 0. 1.]  ent 0.029  1177s
+[ppo] it  21  R_honest -0.302  R_attack -0.005  honest acc/dw/clip/rej [0.99 0.   0.01 0.  ]  attack [0.   0.   0.01 0.99]  ent 0.033  1235s
+[ppo] it  22  R_honest +0.089  R_attack -0.005  honest acc/dw/clip/rej [1. 0. 0. 0.]  attack [0. 0. 0. 1.]  ent 0.026  1280s
+[ppo] it  23  R_honest -0.017  R_attack -0.007  honest acc/dw/clip/rej [0.99 0.   0.01 0.  ]  attack [0.   0.   0.   0.99]  ent 0.044  1320s
+[ppo] it  24  R_honest -0.241  R_attack -0.020  honest acc/dw/clip/rej [1. 0. 0. 0.]  attack [0. 0. 0. 1.]  ent 0.031  1372s
+[ppo] it  25  R_honest -0.668  R_attack -0.016  honest acc/dw/clip/rej [0.99 0.   0.01 0.  ]  attack [0.   0.01 0.01 0.99]  ent 0.026  1418s
+[ppo] it  26  R_honest -0.362  R_attack +0.000  honest acc/dw/clip/rej [0.99 0.01 0.   0.  ]  attack [0. 0. 0. 1.]  ent 0.020  1458s
+[ppo] it  27  R_honest -0.477  R_attack +0.000  honest acc/dw/clip/rej [0.97 0.   0.02 0.  ]  attack [0. 0. 0. 1.]  ent 0.024  1510s
+[ppo] it  28  R_honest -0.363  R_attack +0.000  honest acc/dw/clip/rej [0.99 0.   0.   0.  ]  attack [0. 0. 0. 1.]  ent 0.030  1567s
+[ppo] it  29  R_honest -0.382  R_attack +0.000  honest acc/dw/clip/rej [1. 0. 0. 0.]  attack [0. 0. 0. 1.]  ent 0.028  1625s
+[ppo] it  30  R_honest -0.267  R_attack +0.000  honest acc/dw/clip/rej [0.99 0.   0.01 0.  ]  attack [0. 0. 0. 1.]  ent 0.039  1678s
+[ppo] it  31  R_honest -0.110  R_attack +0.000  honest acc/dw/clip/rej [0.99 0.01 0.   0.  ]  attack [0. 0. 0. 1.]  ent 0.044  1736s
+[ppo] it  32  R_honest -0.173  R_attack +0.000  honest acc/dw/clip/rej [1. 0. 0. 0.]  attack [0. 0. 0. 1.]  ent 0.010  1769s
+[ppo] it  33  R_honest +0.100  R_attack -0.005  honest acc/dw/clip/rej [0.99 0.   0.01 0.  ]  attack [0. 0. 0. 1.]  ent 0.032  1815s
+[ppo] it  34  R_honest -0.020  R_attack +0.000  honest acc/dw/clip/rej [1. 0. 0. 0.]  attack [0. 0. 0. 1.]  ent 0.017  1854s
+[ppo] it  35  R_honest -0.135  R_attack +0.000  honest acc/dw/clip/rej [0.99 0.   0.01 0.  ]  attack [0. 0. 0. 1.]  ent 0.019  1906s
+[ppo] it  36  R_honest -0.324  R_attack -0.012  honest acc/dw/clip/rej [0.99 0.01 0.   0.  ]  attack [0. 0. 0. 1.]  ent 0.025  1952s
+[ppo] it  37  R_honest -0.043  R_attack +0.000  honest acc/dw/clip/rej [0.98 0.01 0.01 0.  ]  attack [0. 0. 0. 1.]  ent 0.020  1997s
+[ppo] it  38  R_honest -0.090  R_attack +0.000  honest acc/dw/clip/rej [0.99 0.01 0.   0.  ]  attack [0. 0. 0. 1.]  ent 0.012  2043s
+[ppo] it  39  R_honest -0.257  R_attack +0.000  honest acc/dw/clip/rej [1. 0. 0. 0.]  attack [0. 0. 0. 1.]  ent 0.010  2100s
+[ppo] done. policy -> C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\rl_defense\cache\ppo_defender.pt, log -> C:\Users\hp\OneDrive\Desktop\urvfl\URVFL\cifar10\rl_defense_result\ppo_defender_training_log.csv

@@ -1,0 +1,36 @@
+{
+    "_comment": "Config for the RL-based passive-client defence. The original config_cifar.json is left untouched.",
+
+    "reference_epochs": 8,
+    "reference_noise": 0.1,
+
+    "downweight": 0.3,
+    "clip_ratio": 0.5,
+
+    "ppo_iterations": 40,
+    "ppo_segments_per_iter": 8,
+    "ppo_segment_len": 64,
+    "ppo_gamma": 0.3,
+    "ppo_lambda": 0.8,
+    "ppo_lr": 1e-3,
+    "ppo_epochs": 8,
+    "ppo_entropy": 0.01,
+    "honest_fraction": 0.5,
+    "world_life_min": 150,
+    "world_life_max": 1500,
+    "sim_pretrain_epochs": 10,
+
+    "reward_alpha_task": 1.0,
+    "reward_beta_recon": 1.0,
+    "reward_gamma_false_reject": 1.0,
+    "reward_delta_overhead": 0.02,
+
+    "train_attacks": ["urvfl"],
+    "_train_attacks_note": "fsha and agn are supported by the simulator but excluded by default: their one-round counterfactual effect on reconstruction is positive early in training (the attacker decoder has not co-adapted yet), so they would teach the policy to accept them. They are evaluated as unseen attacks instead.",
+    "train_aux_kinds": ["uniform", "skewed"],
+    "heldout_aux_kinds": ["small", "half_classes"],
+
+    "eval_epochs": 25,
+    "eval_pretrain_epochs": 20,
+    "honest_eval_epochs": 10
+}
